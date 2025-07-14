@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politique de Confidentialité - Finny</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        h2 {
+            color: #34495e;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+        }
+        
+        .update-date {
+            color: #7f8c8d;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #2c3e50;
+            font-style: italic;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .important {
+            background-color: #e8f4f8;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        
+        .important strong {
+            color: #2980b9;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #dee2e6;
+            margin-top: 30px;
+        }
+        
+        .data-types {
+            background-color: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+        
+        .security-note {
+            background-color: #d4edda;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #28a745;
+            margin: 15px 0;
+        }
+        
+        strong {
+            color: #2c3e50;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Politique de Confidentialité</h1>
+        
+        <div class="update-date">
+            <strong>Dernière mise à jour : 14 juillet 2025</strong>
+        </div>
+        
+        <div class="subtitle">
+            <em>Comment nous protégeons vos informations financières</em>
+        </div>
+
+        <div class="section">
+            <h2>Introduction</h2>
+            <p>Bienvenue sur Finny. Cette Politique de Confidentialité décrit comment nous collectons, utilisons et protégeons vos informations lors de l'utilisation de notre application de gestion budgétaire. Nous nous engageons à protéger vos données financières et à assurer la transparence sur la façon dont vos informations sont traitées.</p>
+        </div>
+
+        <div class="section">
+            <h2>Authentification via Firebase</h2>
+            <p>Finny utilise Firebase Authentication via Apple Sign In pour permettre aux utilisateurs de se connecter de manière sécurisée et d'accéder aux fonctionnalités personnalisées.</p>
+            
+            <p><strong>Ce que nous collectons via Firebase :</strong></p>
+            <ul>
+                <li>Adresse e-mail</li>
+            </ul>
+            
+            <p>Ces données sont utilisées uniquement pour les fonctionnalités de l'application, telles que :</p>
+            <ul>
+                <li>Vous permettre de vous connecter de manière sécurisée</li>
+                <li>Stocker et synchroniser vos données budgétaires entre appareils</li>
+                <li>Sauvegarder vos catégories de dépenses et revenus personnalisés</li>
+                <li>Conserver vos abonnements et transactions enregistrés</li>
+            </ul>
+            
+            <p>Nous n'utilisons pas votre nom ou e-mail à des fins publicitaires, et ces données ne sont jamais partagées avec des tiers à des fins marketing.</p>
+        </div>
+
+        <div class="section">
+            <h2>Gestion des Abonnements et Achats via RevenueCat</h2>
+            <p>Finny utilise RevenueCat pour fournir des abonnements premium, garantissant une expérience fluide et sécurisée.</p>
+            
+            <p><strong>Ce que RevenueCat collecte en notre nom :</strong></p>
+            <ul>
+                <li>Un identifiant utilisateur anonyme généré aléatoirement</li>
+                <li>Détails des transactions (ex : date d'achat, ID produit, statut d'abonnement, informations de renouvellement)</li>
+            </ul>
+            
+            <p>Ces données sont utilisées pour :</p>
+            <ul>
+                <li>Activer et gérer les fonctionnalités premium (rapports avancés, synchronisation illimitée, etc.)</li>
+                <li>Prévenir la fraude par validation des reçus</li>
+                <li>Générer des analyses agrégées pour nous aider à améliorer l'application</li>
+            </ul>
+            
+            <div class="important">
+                <strong>Important :</strong> RevenueCat ne reçoit pas votre nom d'utilisateur ou e-mail Firebase. L'identifiant utilisateur RevenueCat est anonyme et non lié à votre identité personnelle.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Données Financières</h2>
+            <p>Finny traite vos informations financières avec le plus grand soin :</p>
+            
+            <div class="data-types">
+                <p><strong>Types de données collectées :</strong></p>
+                <ul>
+                    <li>Montants de revenus et dépenses</li>
+                    <li>Catégories de transactions</li>
+                    <li>Informations sur les abonnements</li>
+                    <li>Données budgétaires personnelles</li>
+                </ul>
+            </div>
+            
+            <p><strong>Utilisation :</strong></p>
+            <ul>
+                <li>Calculer vos soldes et statistiques financières</li>
+                <li>Générer des rapports et analyses personnalisés</li>
+                <li>Fournir des recommandations budgétaires</li>
+                <li>Synchroniser vos données entre appareils</li>
+            </ul>
+            
+            <div class="important">
+                <strong>Important :</strong> Nous ne collectons jamais d'informations bancaires réelles (numéros de compte, mots de passe, etc.). Toutes les données financières sont saisies manuellement par vous et restent sous votre contrôle.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Comment nous utilisons vos données</h2>
+            <ul>
+                <li><strong>Firebase :</strong> Pour l'authentification et la synchronisation de vos données budgétaires personnalisées</li>
+                <li><strong>RevenueCat :</strong> Pour gérer les abonnements premium, activer les droits, valider les achats et analyser le comportement d'abonnement agrégé</li>
+                <li><strong>Traitement local :</strong> Calculs budgétaires et génération de rapports sur votre appareil</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Stockage de vos données</h2>
+            <ul>
+                <li><strong>SwiftData :</strong> Toutes vos données financières (revenus, dépenses, catégories, budgets) sont stockées localement sur votre appareil</li>
+                <li><strong>Synchronisation Cloud :</strong> Si vous vous connectez, vos données sont synchronisées de manière sécurisée via Firebase pour être accessibles sur tous vos appareils</li>
+                <li><strong>Suppression :</strong> Vous pouvez supprimer toutes vos données financières lorsque vous supprimez votre compte</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Vos choix</h2>
+            <ul>
+                <li>Vous pouvez utiliser les fonctionnalités principales de Finny gratuitement</li>
+                <li>Votre e-mail n'est stocké que si vous choisissez de vous connecter pour la synchronisation</li>
+                <li>Les données d'abonnement sont traitées de manière anonyme via RevenueCat</li>
+                <li>Vous contrôlez entièrement vos données financières et pouvez les supprimer à tout moment</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Sécurité</h2>
+            <div class="security-note">
+                <p>Nous mettons en place des mesures de sécurité appropriées pour protéger vos informations financières :</p>
+                <ul>
+                    <li>Chiffrement des données en transit et au repos</li>
+                    <li>Authentification sécurisée via Firebase</li>
+                    <li>Stockage local sécurisé sur votre appareil</li>
+                    <li>Pas de partage de données avec des tiers non autorisés</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Conservation des données</h2>
+            <p>Nous conservons les données d'authentification et d'achat tant qu'elles sont nécessaires pour fournir les fonctionnalités de l'application ou répondre aux obligations légales. Étant donné que RevenueCat utilise des identifiants anonymes, nous ne pouvons pas supprimer les enregistrements d'achat individuels. Les données d'identité stockées par Firebase (ex : e-mail) peuvent être supprimées sur demande.</p>
+        </div>
+
+        <div class="section">
+            <h2>Modifications de cette Politique de Confidentialité</h2>
+            <p>Nous pouvons mettre à jour cette Politique de Confidentialité périodiquement. Tout changement sera reflété ici, et la date de "Dernière mise à jour" sera révisée en conséquence. Nous vous notifierons des modifications importantes via l'application.</p>
+        </div>
+
+        <div class="section">
+            <h2>Nous contacter</h2>
+            <div class="contact-info">
+                <p>Si vous avez des questions concernant cette Politique de Confidentialité ou le traitement de vos données financières, veuillez nous contacter à : <a href="mailto:votre-email@exemple.com">votre-email@exemple.com</a></p>
+            </div>
+        </div>
+
+        <div class="section">
+            <p><em>En utilisant Finny, vous acceptez la collecte et l'utilisation des informations comme décrit ci-dessus.</em></p>
+        </div>
+    </div>
+</body>
+</html>
